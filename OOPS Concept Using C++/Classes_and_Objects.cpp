@@ -6,8 +6,6 @@ class Student {
     int rollno;
     int marks;
 };
-
-
 int main()
 {
 	Student s;
@@ -18,10 +16,6 @@ int main()
 	cout<<s.name<<endl;
 	cout<<s.rollno<<endl;
 	cout<<s.marks<<endl;
-	
-	
-	
-	
-	
 	return 0;
 }
+
