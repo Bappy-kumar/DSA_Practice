@@ -6,9 +6,10 @@ int main()
 	int a = 10;
 	int *p = &a;
 	
-	cout<<a<<endl;
-	cout<<p<<endl;
-	cout<<*p<<endl;
-	cout<<&a<<endl;
+	cout<<"Value of a: "<<a<<endl;
+	cout<<"Address of a: "<<&a<<endl;
+	cout<<"Value in p (address): "<<p<<endl;
+	cout<<"Value pointed by p: "<<*p<<endl;
+	
     return 0;
 }
