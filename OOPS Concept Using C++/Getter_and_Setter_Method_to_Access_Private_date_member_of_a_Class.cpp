@@ -5,29 +5,22 @@ class Student {
 		string name;
 		int rollno;
 		int marks;
-
-	public:
-		
+    public:
 //	default Constructor	
 	Student() {}
-	
-	
-	// Parametreized Constructor		
+// Parametreized Constructor		
 		Student(string n, int r, int m)
 		{
 			name = n;
 			rollno = r;
 			marks = m;
 		}
-		
-		//Setter Methods to set the name, rollno, marks of a private variable
-		
-      void setName(string name1)
+//Setter Methods to set the name, rollno, marks of a private variable
+    void setName(string name1)
       {
       	name = name1;
 	  }
-	  
-	  void setRollno(int rollno1)
+	void setRollno(int rollno1)
 	  {
 	  	rollno = rollno1;
 	  }
